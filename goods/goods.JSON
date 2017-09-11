@@ -1,0 +1,127 @@
+[{
+        "color": "black", 
+        "type" : "dress",
+        "id": "1001", 
+        "imageUrl": "goods/goods-img/1.jpg", 
+        "brand": "MaxMara", 
+        "price": 150,
+        "popularity": 2
+    }, 
+    {
+        "color": "brown", 
+        "type" : "dress",
+        "id": "1002", 
+        "imageUrl": "goods/goods-img/2.jpg", 
+        "brand": "ERIN", 
+        "price": 250,
+        "popularity": 8
+    }, 
+     {
+        "color": "blue", 
+        "type" : "dress",
+        "id": "1003", 
+        "imageUrl": "goods/goods-img/3.jpg", 
+        "brand": "LarkRo", 
+        "price": 350,
+        "popularity": 1
+    }, 
+     {
+        "color": "black", 
+        "type" : "dress",
+        "id": "1004", 
+        "imageUrl": "goods/goods-img/4.jpg", 
+        "brand": "MaxMara", 
+        "price": 150,
+        "popularity": 6
+    }, 
+     {
+        "color": "brown", 
+        "type" : "dress",
+        "id": "1005", 
+        "imageUrl": "goods/goods-img/5.jpg", 
+        "brand": "ERIN", 
+        "price": 225,
+        "popularity": 11
+    }, 
+     {
+        "color": "black", 
+        "type" : "pants",
+        "id": "1006", 
+        "imageUrl": "goods/goods-img/6.jpg", 
+        "brand": "LarkRo", 
+        "price": 110,
+        "popularity": 12
+    }, 
+     {
+        "color": "brown", 
+        "type" : "pants",
+        "id": "1007", 
+        "imageUrl": "goods/goods-img/7.jpg", 
+        "brand": "MaxMara", 
+        "price": 115,
+        "popularity": 7
+    }, 
+     {
+        "color": "black", 
+        "type" : "pants",
+        "id": "1008", 
+        "imageUrl": "goods/goods-img/8.jpg", 
+        "brand": "ERIN", 
+        "price": 230,
+        "popularity": 13
+    }, 
+     {
+        "color": "brown", 
+        "type" : "pants",
+        "id": "1009", 
+        "imageUrl": "goods/goods-img/9.jpg", 
+        "brand": "LarkRo", 
+        "price": 310,
+        "popularity": 14
+    }, 
+     {
+        "color": "blue", 
+        "type" : "top",
+        "id": "1010", 
+        "imageUrl": "goods/goods-img/10.jpg", 
+        "brand": "MaxMara", 
+        "price": 75,
+        "popularity": 3
+    }, 
+     {
+        "color": "brown", 
+        "type" : "top",
+        "id": "1011", 
+        "imageUrl": "goods/goods-img/11.jpg", 
+        "brand": "ERIN", 
+        "price": 50,
+        "popularity": 9
+    }, 
+     {
+        "color": "black", 
+        "type" : "top",
+        "id": "1012", 
+        "imageUrl": "goods/goods-img/12.jpg", 
+        "brand": "LarkRo", 
+        "price": 80,
+        "popularity": 4
+    }, 
+     {
+        "color": "blue", 
+        "type" : "top",
+        "id": "1013", 
+        "imageUrl": "goods/goods-img/13.jpg", 
+        "brand": "MaxMara", 
+        "price": 90,
+        "popularity": 10
+    }, 
+     {
+        "color": "blue", 
+        "type" : "top",
+        "id": "1014", 
+        "imageUrl": "goods/goods-img/14.jpg", 
+        "brand": "ERIN", 
+        "price": 85,
+        "popularity": 5
+    }
+]
