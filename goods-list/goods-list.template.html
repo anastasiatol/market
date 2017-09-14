@@ -22,7 +22,7 @@ Sorted by:
     <option>popularity</option>
     <option>price</option>
 </select>
-<ul ng-controller="goodsController">
+<ul>
     <li ng-repeat="good in $ctrl.goods | filter : $ctrl.byType | filter : $ctrl.byColor | filter : $ctrl.byBrand | orderBy:$ctrl.orderProp">
         <img ng-src={{good.imageUrl}} ng-click="openModalInfo(good)">
         <p>{{good.price}} $</p>

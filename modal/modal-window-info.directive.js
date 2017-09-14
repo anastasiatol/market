@@ -6,7 +6,6 @@ angular.
         restrict: "E",
         transclude: true,
         controller: ['$scope', function ($scope){
-            
         }]
     }
 })

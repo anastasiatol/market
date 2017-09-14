@@ -9,9 +9,10 @@
     <script type="text/javascript" src='goods-list/goods-list.component.js'></script>
     <script type="text/javascript" src="modal/modal-window-info.directive.js"></script>
     <script type="text/javascript" src="controller/goodsController.js"></script>
+
 </head>
 <body>
-    <div>
+    <div ng-controller="goodsController">
         <goods-list></goods-list>
         <modal-info ng-show= 'showModalInfo'></modal-info>
     </div>
