@@ -1,30 +1,37 @@
-Filter: 
-<select ng-model='$ctrl.byType'>
-    <option></option>
-    <option>dress</option>
-    <option>pants</option>
-    <option>top</option>
-</select>
-<select ng-model='$ctrl.byColor'>
-    <option></option>
-    <option>black</option>
-    <option>brown</option>
-    <option>blue</option>
-</select>
-<select ng-model='$ctrl.byBrand'>
-    <option></option>
-    <option>MaxMara</option>
-    <option>Erin</option>
-    <option>LarkRo</option>
-</select>
-Sorted by:
-<select ng-model='$ctrl.orderProp'>
-    <option>popularity</option>
-    <option>price</option>
-</select>
+<div class='filters'>
+    Filter: 
+    <select ng-model='$ctrl.byType'>
+        <option></option>
+        <option>dress</option>
+        <option>pants</option>
+        <option>top</option>
+    </select>
+    <select ng-model='$ctrl.byColor'>
+        <option></option>
+        <option>black</option>
+        <option>brown</option>
+        <option>blue</option>
+    </select>
+    <select ng-model='$ctrl.byBrand'>
+        <option></option>
+        <option>MaxMara</option>
+        <option>Erin</option>
+        <option>LarkRo</option>
+    </select>
+    Sorted by:
+    <select ng-model='$ctrl.orderProp'>
+        <option>popularity</option>
+        <option>price</option>
+    </select>
+</div>
 <ul>
     <li ng-repeat="good in $ctrl.goods | filter : $ctrl.byType | filter : $ctrl.byColor | filter : $ctrl.byBrand | orderBy:$ctrl.orderProp">
-        <img ng-src={{good.imageUrl}} ng-click="openModalInfo(good)">
-        <p>{{good.price}} $</p>
+        <img ng-src={{good.imageUrl}}>
+        <div class = 'mask'>
+            <h2>{{good.brand}}</h2>
+            <p>{{good.description}}</p>
+            <div class='buttonView' ng-click="openModalInfo(good)">View</div>
+        </div>
+        <span>{{good.price}} $</span>
     </li>
 </ul>

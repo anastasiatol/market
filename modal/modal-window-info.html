@@ -1,5 +1,7 @@
-<div ng-show="showModalInfo">
+<div class='modalWindow' ng-show="showModalInfo">
+    <p class='buttonClose' ng-click='onClose()'>&times</p>
     <img ng-src={{selectedGood.imageUrl}}>
-    <p>{{selectedGood.brand}}</p>
-    <p>{{selectedGood.price}}</p>
+    <p>Brand {{selectedGood.brand}}</p>
+    <p>Price {{selectedGood.price}} $</p>
+    <p>{{selectedGood.information}}</p>
 </div>
